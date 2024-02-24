@@ -6,7 +6,8 @@
 
 name: unity_nllb-100
 model_type: unity
-tokenizer: "https://huggingface.co/facebook/seamless-m4t-large/resolve/main/tokenizer.model"
+#tokenizer: "https://huggingface.co/facebook/seamless-m4t-large/resolve/main/tokenizer.model"
+tokenizer: "file:///apdcephfs_cq2/share_916081/brightxwang/Seamless_M4T/pretrained_model/seamless-m4t-v2-large/tokenizer.model"
 default_lang: eng
 langs:
   - afr
