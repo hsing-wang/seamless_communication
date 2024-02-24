@@ -28,7 +28,8 @@ class SpeechTokenizer:
 class Speech2SpeechFleursDatasetBuilder:
     """Assembles speech2speech dataset from google/fleurs on HuggingFace"""
 
-    HF_FLEURS_DATASET_NAME = "google/fleurs"
+    #HF_FLEURS_DATASET_NAME = "google/fleurs"
+    HF_FLEURS_DATASET_NAME = "/apdcephfs_cq2/share_916081/brightxwang/Seamless_M4T/data/fleurs"
 
     def __init__(
         self,
