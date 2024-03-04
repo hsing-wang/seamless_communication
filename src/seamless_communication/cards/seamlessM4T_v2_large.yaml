@@ -9,8 +9,8 @@ base: unity_nllb-100
 model_arch: base_v2
 #char_tokenizer: "https://huggingface.co/facebook/seamless-m4t-v2-large/resolve/main/spm_char_lang38_tc.model"
 #checkpoint: "https://huggingface.co/facebook/seamless-m4t-v2-large/resolve/main/seamlessM4T_v2_large.pt"
-char_tokenizer: "file:///apdcephfs_cq2/share_916081/brightxwang/Seamless_M4T/pretrained_model/seamless-m4t-v2-large/spm_char_lang38_tc.model"
-checkpoint: "file:///apdcephfs_cq2/share_916081/brightxwang/Seamless_M4T/pretrained_model/seamless-m4t-v2-large/seamlessM4T_v2_large.pt"
+char_tokenizer: "file:///apdcephfs_cq2/share_1297902/speech_user/brightxwang/Seamless_M4T/pretrained_model/seamless-m4t-v2-large/spm_char_lang38_tc.model"
+checkpoint: "file:///apdcephfs_cq2/share_1297902/speech_user/brightxwang/Seamless_M4T/pretrained_model/seamless-m4t-v2-large/seamlessM4T_v2_large.pt"
 num_units: 10000
 unit_langs:
   - arb
